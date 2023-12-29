@@ -1,0 +1,14 @@
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\obj\Debug\net8.0\MAP_Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\obj\Debug\net8.0\MAP_Project.AssemblyInfoInputs.cache
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\obj\Debug\net8.0\MAP_Project.AssemblyInfo.cs
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\obj\Debug\net8.0\MAP_Project.csproj.CoreCompileInputs.cache
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\bin\Debug\net8.0\MAP_Project.exe
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\bin\Debug\net8.0\MAP_Project.deps.json
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\bin\Debug\net8.0\MAP_Project.runtimeconfig.json
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\bin\Debug\net8.0\MAP_Project.dll
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\bin\Debug\net8.0\MAP_Project.pdb
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\obj\Debug\net8.0\MAP_Project.dll
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\obj\Debug\net8.0\refint\MAP_Project.dll
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\obj\Debug\net8.0\MAP_Project.pdb
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\obj\Debug\net8.0\MAP_Project.genruntimeconfig.cache
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\obj\Debug\net8.0\ref\MAP_Project.dll
