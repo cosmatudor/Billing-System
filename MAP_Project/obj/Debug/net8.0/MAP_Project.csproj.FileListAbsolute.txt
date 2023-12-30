@@ -12,3 +12,4 @@ C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\obj\Debug\net8.0\refint\MAP
 C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\obj\Debug\net8.0\MAP_Project.pdb
 C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\obj\Debug\net8.0\MAP_Project.genruntimeconfig.cache
 C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\obj\Debug\net8.0\ref\MAP_Project.dll
+C:\Users\tudor\RiderProjects\MAP_Project\MAP_Project\obj\Debug\net8.0\MAP_Project.sourcelink.json

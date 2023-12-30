@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MAP_Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eacb603c7fa91794ca1d7ec7e2803cae5b647fe6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MAP_Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MAP_Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

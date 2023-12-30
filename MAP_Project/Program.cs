@@ -9,6 +9,8 @@ IRepository<string, Bill> billsRepository = new BillsFileRepository("../../../da
 IRepository<string, Acquisition> acquisitionsRepository = new AcquisitionsFileRepository("../../../data/acquisitions.txt", EntityFactory.GetAcquisition);
 
 DocumentsService documentService = new DocumentsService(documentsRepository);
+BillsService billsService = new BillsService(billsRepository);
+AcquisitionsService acquisitionsService = new AcquisitionsService(acquisitionsRepository);
 
-UI ui = new UI(documentService);
+UI ui = new UI(documentService, billsService, acquisitionsService);
 ui.run();

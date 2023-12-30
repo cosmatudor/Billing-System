@@ -1,4 +1,5 @@
 using System.ComponentModel.Design;
+using MAP_Project.domain;
 using MAP_Project.services;
 
 namespace MAP_Project.ui;
@@ -6,10 +7,14 @@ namespace MAP_Project.ui;
 public class UI
 {
     private DocumentsService _documentsService;
+    private BillsService _billsService;
+    private AcquisitionsService _acquisitionsService;
     
-    public UI(DocumentsService documentsService)
+    public UI(DocumentsService documentsService, BillsService billsService, AcquisitionsService acquisitionsService)
     {
         _documentsService = documentsService;
+        _billsService = billsService;
+        _acquisitionsService = acquisitionsService;
     }
     
     public void run()
@@ -28,6 +33,39 @@ public class UI
                 case 1:
                 {
                     _documentsService.getDocumentsFromYear("2023").ForEach(Console.WriteLine);
+                    break;
+                }
+                case 2:
+                {
+                    List<Bill> bills = _billsService.getBillsDueToCurrentMonth();
+                    foreach (var bill in bills) 
+                    {
+                        Console.WriteLine(bill.name + "-" + bill.dueDate);
+                    }
+                    break;
+                }
+                case 3:
+                {
+                    List<Bill> bills = _billsService.getBillsWithAtLeastThreeAcquisitions();
+                    foreach (var bill in bills) 
+                    {
+                        Console.WriteLine(bill.name + "-" + bill.acquisitions.Sum(acquisition => acquisition.quantity));
+                    }
+                    break;
+                }
+                case 4:
+                {
+                    List<Acquisition> acquisitions = _acquisitionsService.GetAcquisitionsOfCategory(Category.Utilities);
+                    foreach (var acquisition in acquisitions) 
+                    {
+                        Console.WriteLine(acquisition.product + "-" + acquisition.bill.name);
+                    }
+
+                    break;
+                }
+                case 5:
+                {
+                    Console.WriteLine(_billsService.getCategoryWithTheMostAcquisitions());
                     break;
                 }
             }
